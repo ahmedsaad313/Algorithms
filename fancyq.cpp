@@ -86,8 +86,6 @@ public:
     }
 
 
-    // Do not touch code below this line and above (look below)...
-
     vector<vector<int>> createBoard(int n){
         vector<vector<int>> arr(n, vector<int>(n));
         for(int i = 0; i < n; i++){
@@ -169,20 +167,11 @@ public:
     }
 
 
-  //...and above this line EXCEPT FOR REPLACING showboard WITH showFancyBoard.
-
-
-
 };
 
 int main(){
-  Solution s; // do not modify this line
- s.solveQueens();   // uncomment this line when you are ready to check final solution
-
-  // use the rest of main to test your functions as you progrss.
-
-  // s.showFancyBoard();
-
+  Solution s;
+ s.solveQueens();  
 
 
   cout<<"finished";
